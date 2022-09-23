@@ -5,7 +5,7 @@ fetch("https://jsonplaceholder.typicode.com/todos")
         return todo.completed
      })
     // const completed = json.filter( (todo,index)=> {
-    //     return todo.userId == 1
+    //     return todo.userId === 1
     //  })
 
      completed.forEach( (todo, index) => {
